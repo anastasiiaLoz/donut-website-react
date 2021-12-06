@@ -1,0 +1,6 @@
+.socialMediaContainer {
+  display: flex;
+  height: 15px;
+  width: 61px;
+  justify-content: space-between;
+}

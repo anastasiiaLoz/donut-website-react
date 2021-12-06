@@ -1,0 +1,17 @@
+.button {
+  background: #ab816c;
+  border-radius: 25px;
+  width: 145px;
+  height: 40px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 65px;
+  border-style: none;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
