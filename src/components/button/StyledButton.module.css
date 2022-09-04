@@ -3,9 +3,9 @@
   border-radius: 25px;
   width: 145px;
   height: 40px;
-  font-family: inherit;
+  font-family:Caveat Brush;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 18px;
   line-height: 65px;
   border-style: none;
@@ -14,4 +14,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.buttonRegister{
+  composes: button;
+  margin-bottom: 45px;
 }

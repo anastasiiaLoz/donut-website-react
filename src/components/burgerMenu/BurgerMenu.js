@@ -1,21 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import s from "../burgerMenu/StyledBurgerMenu.module.css";
 import { CloseSharp, MenuSharp } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import logo from "../img/logo.png";
 
 export const BurgerMenu = () => {
+const [open, setOpen] = useState(false)
+
+const handleToggle = () => {
+  setOpen(!open)
+}
+
+
   return (
     <>
-      <div className={s.burgerMenu}>
+    <button type="button" className={s.burgerButton} onClick={handleToggle}>{!open ? (<MenuSharp fontSize="medium" />) : (<CloseSharp fontSize="medium" /> )}
+    </button>
+    {open ?  
+      (<div className={s.burgerMenu}>
         <div className={s.burgerTop}>
           <img className={s.burgerLogo} src={logo} alt="oh my donut label" />
-          <button type="button" className={s.burgerOpenButton}>
-            <MenuSharp fontSize="medium" />
-          </button>
-          <button type="button" className={s.burgerCloseButton}>
-            <CloseSharp fontSize="medium" />
-          </button>
         </div>
         <ul className={s.burgerNavList}>
           <li className={s.burgerNavLinks}>
@@ -39,8 +43,8 @@ export const BurgerMenu = () => {
             </Link>
           </li>
         </ul>
-      </div>
-      <div className={s.burgerMenuOverlay} />
+      </div>) : null
+    }
     </>
   );
 };
