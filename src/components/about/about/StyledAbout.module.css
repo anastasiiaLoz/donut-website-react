@@ -3,3 +3,81 @@
     top: -154px;
     left: 0;
 }
+
+.cupcakeBox{
+    margin: 0 auto;
+}
+
+.singleDonut{
+    position: relative;
+    bottom: 87px;
+    left: 80px;
+}
+
+.aboutUsTitle, .programTitle{
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.aboutUsFirstParagraph, 
+.aboutUsSecondParagraph, 
+.programParagraph{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.readMoreButton{
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 65px;
+    color: #AB816C;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.aboutUs, .program{
+    width: 290px;
+    height: 242px;
+    margin: 0 auto;
+}
+
+.aboutUsFirstParagraph{
+    padding-bottom: 20px;
+}
+
+.aboutUs{
+position: relative;
+top: -84px;
+}
+
+.program{
+position: relative;
+    top: 35px;
+}
+
+.program > p:not(:last-child){
+    padding-bottom: 20px;
+}
+
+.eventContainer{
+    position: relative;
+    top: 300px;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.eventContainer:nth-child(2){
+margin-left: 10px;
+}

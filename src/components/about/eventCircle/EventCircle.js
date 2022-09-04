@@ -4,8 +4,8 @@ import circleBg from "../../img/circleBg.png"
 
 export const EventCircle = ({imgURL, desription, title, details, name, imgUrl}) => {
   return (
-    <div>
-        <img src={circleBg} alt="Light Circle Background"/>
+    <div className={s.eventContainer}>
+        <img className={s.circleBg} src={circleBg} alt="Light Circle Background"/>
         <img className={s.eventImg} src={imgURL} alt={desription}/>
         <h3 className={s.eventTitle}>{title}</h3>
         <p className={s.eventDetails}>{details}</p>
