@@ -38,7 +38,7 @@ export const About = () => {
                     <p className={s.programParagraph}>> Secret receipt of cooking from Eva</p>
                     <p className={s.programParagraph}>> All products are included in the price</p>
                 </div>
-                <button className={s.readMoreButton} type="button">Read more</button>
+                <button className={s.readMoreButtonSecond} type="button">Read more</button>
 
                 <div className={s.eventContainer}>
 

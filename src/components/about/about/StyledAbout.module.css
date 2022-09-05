@@ -45,6 +45,13 @@
     padding: 0;
 }
 
+.readMoreButtonSecond {
+    composes: readMoreButton;
+    position: relative;
+    top: 300px;
+    left: 15px;
+}
+
 .aboutUs, .program{
     width: 290px;
     height: 242px;
@@ -71,13 +78,15 @@ position: relative;
 
 .eventContainer{
     position: relative;
-    top: 300px;
-    /* margin: 0 auto; */
+    top: 310px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 15px;
+    width: 290px;
 }
 
-.eventContainer:nth-child(2){
-margin-left: 10px;
+.eventContainer>div:nth-child(even) {
+    margin-top: 25px;
+    margin-left: 6px;
 }

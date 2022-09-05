@@ -1,12 +1,22 @@
 .circleBg{
     position: absolute;
+    width: 142px;
+    height: 142px;
 }
 
 .eventImg{
     position: relative;
     top: -34px;
-    left: 40px;
+    left: 37px;
+    width: 65px;
+    height: 72px;
 }
+
+.eventContainer{
+    width: 142px;
+    height: 168px;
+}
+
 
 .eventTitle {
     font-family: 'Caveat Brush';
@@ -19,14 +29,14 @@
 
 .eventTitle{
     position: relative;
-    top: -30px;
-    left: -85px;
+    top: -32px;
+    left: 0px;
 }
 
 .eventDetails {
     position: relative;
-    top: -19px;
-    left: -85px;
+    top: -17px;
+    left: 0px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -37,7 +47,9 @@
 
 .eventSvg{
     position: relative;
-    top: -5px;
+    top: -6px;
     left: 62px;
 }
+
+
 
