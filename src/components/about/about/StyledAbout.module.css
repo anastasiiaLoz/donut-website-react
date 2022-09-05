@@ -84,6 +84,7 @@ position: relative;
     flex-wrap: wrap;
     padding: 15px;
     width: 290px;
+    margin: 0 auto;
 }
 
 .eventContainer>div:nth-child(even) {
