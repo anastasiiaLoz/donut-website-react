@@ -20,7 +20,7 @@ const handleToggle = () => {
       (<div className={s.burgerMenu}>
         <div className={s.burgerTop}>
           <img className={s.burgerLogo} src={logo} alt="oh my donut label" />
-        </div>
+        
         <ul className={s.burgerNavList}>
           <li className={s.burgerNavLinks}>
             <Link className={s.burgerLink} type="button" to="/main#anchortag">
@@ -43,6 +43,7 @@ const handleToggle = () => {
             </Link>
           </li>
         </ul>
+        </div>
       </div>) : null
     }
     </>

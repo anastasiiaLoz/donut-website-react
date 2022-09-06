@@ -12,9 +12,9 @@ export const Header = () => {
     <div className={s.headerContainer}>
       <img className={s.background} src={background} alt="background" />
       <img className={s.donuts} src={donuts} alt="donuts" />
-      <img className={s.logo} src={logo} alt="logo" />
-      <BurgerMenu/>
+      
       <div className={s.masterclassContainer}>
+      <img className={s.logo} src={logo} alt="logo" />
         <div className={s.headingContainer}>
           <h1 className={s.heading}>Donut Masterclass with the Donut King</h1>
           <p className={s.host}>Hosted by Eva Green</p>
@@ -22,6 +22,7 @@ export const Header = () => {
         <Button type="buttonRegister" label="Register" />
         <SocialMedia />
       </div>
+      <BurgerMenu/>
     </div>
   );
 };
