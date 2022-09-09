@@ -1,17 +1,15 @@
 .aboutUsContainer{
     position: relative;
-    top: -154px;
+    top: -165px;
     left: 0;
+    padding: 15px;
+    background-image: url('../../img/singleDonut.png'), url('../../img/cupcakeBox.png');
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
-.cupcakeBox{
-    margin: 0 auto;
-}
-
-.singleDonut{
-    position: relative;
-    bottom: 87px;
-    left: 80px;
+.aboutUs{
+    padding-top: 290px;
 }
 
 .aboutUsTitle, .programTitle{
@@ -45,16 +43,8 @@
     padding: 0;
 }
 
-.readMoreButtonSecond {
-    composes: readMoreButton;
-    position: relative;
-    top: 300px;
-    left: 15px;
-}
-
 .aboutUs, .program{
     width: 290px;
-    height: 242px;
     margin: 0 auto;
 }
 
@@ -62,27 +52,15 @@
     padding-bottom: 20px;
 }
 
-.aboutUs{
-position: relative;
-top: -84px;
-}
-
-.program{
-position: relative;
-    top: 35px;
-}
-
 .program > p:not(:last-child){
     padding-bottom: 20px;
 }
 
 .eventContainer{
-    position: relative;
-    top: 310px;
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 15px;
     width: 290px;
     margin: 0 auto;
 }

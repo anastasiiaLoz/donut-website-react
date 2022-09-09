@@ -1,23 +1,28 @@
-.reviewBg{
-    position: relative;
-    top: 136px;
-    width: 100%;
+.reviewSection{
+    background-image: url("../img/reviewBg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -175px;
+    height: 1215px;
 }
 
 .reviewsContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    top: -1095px;
 }
 
-.reviewsTitle{
+.registrationTitle, .reviewsTitle{
     font-family: 'Caveat Brush';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 65px;
+}
+
+.reviewsTitle{
+    margin-top: -15px;
 }
 
 .reviewer{
@@ -60,25 +65,73 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    
+    display: block;
+    margin-bottom: 30px;
 }
 
 .numberOfReviews::before{
     content: "";
-    position: absolute;
-    left: 101px;
+    display: inline-block;
     width: 35px;
     height: 1px;
-    bottom: 7px;
     background-color:#AB816C;
+    margin:0px 12px 4px 0px;
 }
 
 .numberOfReviews::after{
     content: "";
-    position: absolute;
-    right: 101px;
+    display: inline-block;
     width: 35px;
     height: 1px;
-    bottom: 7px;
     background-color:#AB816C;
+    margin:0px 0px 4px 12px;
+}
+
+.registrationSection{
+    background-image: url("../img/rectangle.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 290px;
+    height: 510px;
+}
+
+.registrationContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.registrationTitle{
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 65px;
+    margin-bottom: 11px;
+}
+
+.registrationDate,
+.registrationPlace,
+.registrationPrice {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.registrationPrice{
+    margin-top: 25px;
+    display: block;
+}
+
+.registrationPrice::after{
+    content: "";
+    display: inline-block;
+    width: 265px;
+    height: 1px;
+    background-color: #AB816C80;
 }

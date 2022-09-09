@@ -17,10 +17,6 @@ export const About = () => {
     return (
         <>
             <div className={s.aboutUsContainer}>
-                <div className={s.cupcakeBoxImages}>
-                    <img className={s.cupcakeBox} src={cupcakeBox} alt="Cupcake Box with a cup of coffee" />
-                    <img className={s.singleDonut} src={singleDonut} alt="Single Donut" />
-                </div>
                 <div className={s.aboutUs}>
                     <h3 className={s.aboutUsTitle}>About Us</h3>
                     <p className={s.aboutUsFirstParagraph}>Oh My Donut is the shop which adores tasty deserts and spend hours to create sophisticated donuts which will save the world!</p>
@@ -37,8 +33,9 @@ export const About = () => {
                     <p className={s.programParagraph}>> Photoshoot by professional photographer</p>
                     <p className={s.programParagraph}>> Secret receipt of cooking from Eva</p>
                     <p className={s.programParagraph}>> All products are included in the price</p>
+                    <button className={s.readMoreButton} type="button">Read more</button>
                 </div>
-                <button className={s.readMoreButtonSecond} type="button">Read more</button>
+                
 
                 <div className={s.eventContainer}>
 
